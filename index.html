@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Just Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-['Work_Sans']">
+  <header class="flex justify-between px-[20px] py-[10px] shadow">
+    <div class="title">
+      <h2 class="text-[2rem] text-[#DE8F5F] font-bold">Just <span class="text-[#F4DFB6]">Blog</span></h2>
+
+    </div>
+    <nav class="navItems flex gap-[30px]">
+      <a href="./pages/register.html"><button
+          class="bg-[#3D5A98] text-[white] rounded-[10px] px-[20px] py-[5px] w-[120px]">Sign Up</button></a>
+      <img src="notification.svg" alt="notification icons">
+      <img src="user-square.svg" alt="user Icon">
+    </nav>
+
+  </header>
+  <main class="grid  grid-cols-1 sm:grid-cols-12">
+    <aside class="hidden sm:grid sm:col-span-2">
+      <div class="mb-[10px] w-[100%] flex shadow-md py-[10px] rounded-[10px] align-center">
+        <input class="w-[80%] px-[20px]" type=" text" placeholder="Search">
+        <img src="search.svg" alt="search icon">
+      </div>
+
+      <div class="link-section text-[16px] shadow-md py-[20px] rounded-[10px] px-[20px]">
+        <h3 class="text-[20px]">Categories</h3>
+        <p class="my-[20px]">Culture</p>
+        <p class="my-[20px]">Creativity</p>
+        <p class="my-[20px]">Food</p>
+        <p class="my-[20px]">Travel</p>
+        <p class="my-[20px]">Sports</p>
+        <p class="my-[20px]">More....</p>
+      </div>
+
+      <div class="trending-section text-[16px] shadow-md py-[20px] rounded-[10px] px-[20px]">
+        <h2 class="text-[20px]">Trending</h2>
+
+      </div>
+
+    </aside>
+    <div id="content" class="content grid grid-cols-2 sm:grid-cols-3 mt-[10px] gap-[10px]">
+      <!-- <div>
+            <div class="image-section">
+                <img src="imageOne.png" alt="image of a person">
+            </div>
+            <div class="text-section">
+                <p id="category" class="text-[#757B83]">FOOD</p>
+                <p id="title" class="font-bold">Faith has finally gone global</p>
+                <p id="content">With unwavering determination, Faith rose through the ranks of the culinary
+                    world.....</p>
+                <button class="bg-[#C6000F] text-[#ffffff] rounded-[20px] px-[20px]">Read more</button>
+
+
+            </div>
+
+        </div> -->
+    </div>
+
+  </main>
+  <footer
+    class="grid grid-cols-2 sm:grid-cols-6 bg-[#700009] text-[#ffffff] px-[40px] py-[40px] text-[1.2rem] gap-[40px]">
+    <div class=" update col-span-2">
+      <h3 class=" font-bold">Lets update you</h3>
+      <p class="text-[1.3rem]">Drop your email below to get updates from us on latest happenings</p>
+      <input class="my-[20px] w-[100%] rounded-[10px] p-[5px]" type=" text" placeholder="Search"> <br>
+      <button class="bg-[#3D5A98] text-[white] rounded-[10px] px-[20px] my-[20px] py-[5px] w-[120px]">Submit</button>
+
+    </div>
+    <div class="navigation ">
+      <h3 class="font-bold my-[10px]">Navigation</h3>
+      <a href="">Home</a> <br>
+      <a href="">About</a> <br>
+      <a href="">Culture</a> <br>
+      <a href="">Creativity</a> <br>
+      <a href="">Travel</a>
+    </div>
+    <div class="plafform ">
+      <h3 class="font-bold my-[20px]">Platform</h3>
+      <p>Trending</p>
+      <p>Food</p>
+      <p>Music</p>
+    </div>
+    <div class="suport ">
+      <h3 class="font-bold my-[20px]">Support</h3>
+      <p>Client Care</p>
+      <p>Contact</p>
+      <p> Terms & Conditions</p>
+    </div>
+    <div class="follow my-[20px]">
+      <h3 class="font-bold">Follow us</h3>
+      <div class="socials flex gap-[10px]">
+        <img src="x.svg" alt="x icon">
+        <img src="instagram.svg" alt="instagram icon">
+        <img src="facebook.svg" alt="">
+      </div>
+    </div>
+
+  </footer>
+
+  <div id="app"></div>
+  <script type="module" src="./pages/register.html"></script>
+  <script type="module" src="./pages/login.html"></script>
+  <script type="module" src="./pages/profile.html"></script>
+  <script type="module" src="./pages/success.html"></script>
+  <script type="module" src="./pages/verification.html"></script>
+  <script type="module" src="./pages/forgotpassword.html"></script>
+  <script type="module" src="./pages/forgotpasswordTwo.html"></script>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

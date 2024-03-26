@@ -53,7 +53,7 @@ function postCreation(post) {
   let imgSection = document.createElement("div");
   imgSection.classList.add("image-section");
   let img = document.createElement("img");
-  img.src = "background.png";
+  img.src = "./background.png";
   img.alt = "image of a person";
   imgSection.appendChild(img);
 

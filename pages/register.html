@@ -4,12 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Just Blog</title>
-    <link rel="stylesheet" href="../style.css">
+    <title>Just Block</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
 </head>
 
-<body>
-    <h1 class="m-4 font-bold text-[36px]">Register</h1>
+<body class="font-['Work_Sans']">
+    <main class="lg:bg-[url('background.png')]  flex  w-[100%] bg-cover bg-center bg-no-repeat">
+        <div class="empty-div lg:w-[50%] bg-contain sm:w-[0]"></div>
+        <div class="form-div bg-[#000000]  p-4 text-[#FFFFFF]
+        rounded-[10px] text-center lg:w-[40%] sm:w-[100%] sm:hidden lg:block my-[1%]">
+
+            <h3 class="text-[2.1rem] "> <span class="font-bold">Just
+                </span> <span class="text-[#F4DFB6] font-normal">Blog</span></h3>
+            <p class="text-[1rem]">Signup to have an account</p>
+            <form action="" class="text-left m-[10px] lg:w-[80%] m-auto sm:w-[100%]">
+                <div class=" my-[10px]">
+                    <label for="email" class="text-[16px]">Name</label>
+                    <input type="text" placeholder="Name"
+                        class="bg-[#000000] text-[#ffffff] border border-white-200 w-full rounded-[5px] p-[10px] text-[16px]">
+                </div>
+
+                <div class=" my-[10px]">
+                    <label for="Email" class="text-[16px]">Email</label> <br>
+                    <input type="text" placeholder="Email"
+                        class="bg-[#000000] text-[#ffffff] border border-white-200 w-full rounded-[5px] p-[10px] text-[16px]">
+                </div>
+                <div class=" my-[10px]">
+
+                    <label for="">User</label>
+                    <select name="" id=""
+                        class="bg-[#000000] text-[#ffffff] border border-white-200 w-full rounded-[5px] p-[10px] text-[16px] mb-[10px]">
+                        <option value="">Bloggers</option>
+                        <option value="">Content creator</option>
+                        <option value="">Reader</option>
+                        <option value="">Community Member</option>
+                        <option value="">Small business owner</option>
+                        <option value=""> Educator</option>
+                        <option value="">Student</option>
+                        <option value="">Hobbyist</option>
+                        <option value="">Journalist</option>
+                        <option value="">Writer</option>
+                        <option value=""> Influencer</option>
+                        <option value="">Other</option>
+                    </select>
+                </div>
+
+                <div class=" my-[10px]">
+                    <label for="password" class="text-[16px]">Password</label> <br>
+                    <input type="text" placeholder="password"
+                        class="bg-[#000000] text-[#ffffff] border border-white-200 w-full rounded-[5px] p-[10px] text-[16px]">
+                </div>
+
+                <div class=" my-[10px]">
+                    <label for="password" class="text-[16px]">Confirm Password</label> <br>
+                    <input type="text" placeholder="confirm password"
+                        class="bg-[#000000] text-[#ffffff] border border-white-200 w-full rounded-[5px] p-[10px] text-[16px]">
+                </div>
+
+                <button type="submit"
+                    class="bg-[#F4DFB6] mt-[10px] w-[100%] p-[10px] rounded-[10px] my-[10px] text-[#000000]">Login</button>
+                <a href="login.html">
+                    <p class="text-[1rem] text-center ">Already have account <span
+                            class="text-[#F4DFB6] lg:font-bold sm:font-normal underline underline-offset-1">Login</span>
+
+                    </p>
+                </a>
+
+
+            </form>
+        </div>
+
+    </main>
 </body>
 
 </html>

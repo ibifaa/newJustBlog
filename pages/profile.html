@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Just Blog</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body class="font-['Work_Sans']">
@@ -15,27 +15,27 @@
 
         </div>
         <nav class="navItems flex gap-[30px]">
-            <img src="notification.svg" alt="notification icons">
-            <img src="./user-square.svg" alt="user Icon">
+            <img src="../public/notification.svg" alt="notification icons">
+            <img src="../public/user-square.svg" alt="user Icon">
         </nav>
 
     </header>
     <main class="">
 
-        <div id="content" class=" ">
-            <div class="w-[100%] bg-[green]">
-                <img src="profileBg.png" class="object-cover" alt="background image">
-            </div>
+        <div id="content" class="relative ">
+            <div class="w-[100%] bg-[url('../public/profileBg.png')] ">
 
-            <div class="passport-section flex ">
-                <div class="shadow h-[100px] w-[100px] rounded-[50%] bg-[green]">
-                    <img src="passport.png" alt="passport photograph" class="absolute">
+                <div class="passport-section flex absolute ">
+                    <div class="shadow h-[100px] w-[100px] rounded-[50%] ">
+                        <img src="../public/passport.png" alt="passport photograph" class="absolute">
+                    </div>
+
+                    <div>
+                        <h3 class="text-[16px]">Hi Faith</h3>
+                        <p>Welcome to your profile</p>
+                    </div>
                 </div>
 
-                <div>
-                    <h3 class="text-[16px]">Hi Faith</h3>
-                    <p>Welcome to your profile</p>
-                </div>
             </div>
 
             <div class="grid grid-cols-2 w-[60%] gap-[10px] my-[20px]">

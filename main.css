@@ -1,0 +1,6 @@
+.text{
+    margin: 0;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+}

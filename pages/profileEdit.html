@@ -31,11 +31,17 @@
                 <!--  h-[100px] w-[100px] rounded-[50%] -->
                 <div
                     class="passport-section grid grid-cols-3 sm:grid-cols-5 justify-between sm:justify-around w-[100%]">
-                    <p class="absolute text-[1.5rem] top-[220px] z-50 left-[120px]">+ Add <br> image</p>
-                    <div class="passport absolute sm:top-[150px] sm:left-[50px] left-[20px] top-[50px] col-span-1">
+                    <label
+                        class="absolute text-[0.7rem] text-center sm:text-[1rem] top-[80px] sm:top-[190px] z-50 left-[40px] sm:left-[100px]">+
+                        Add
+                        <br> image
+                        <input type="file" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer" />
+                    </label>
+
+                    <div class="passport absolute sm:top-[160px] sm:left-[50px] left-[20px] top-[50px] col-span-1">
 
                         <img src="/passport.png" alt="passport photograph"
-                            class="shadow-lg h-[100px] w-[100px] sm:h-[200px] sm:w-[200px] rounded-[50%] sm:border-[10px] border-[5px] border-white" />
+                            class="shadow-lg h-[100px] w-[100px] sm:h-[137px] sm:w-[137px] rounded-[50%] sm:border-[10px] border-[5px] border-white transition-opacity opacity-60 duration-500 opacity-100 " />
 
                     </div>
                     <div></div>

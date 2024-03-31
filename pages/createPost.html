@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Just Blog</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../main.css" />
+</head>
+
+<body class="font-['Work_Sans']">
+    <header class="flex justify-between px-[20px] py-[10px] shadow">
+        <div class="title">
+            <h2 class="text-[1.5rem] sm:text-[2rem] text-[#DE8F5F] font-bold">
+                Just <span class="text-[#F4DFB6]">Blog</span>
+            </h2>
+        </div>
+        <nav class="navItems flex gap-[30px]">
+            <img src="/notification.svg" alt="notification icons" />
+            <img src="/user-square.svg" alt="user Icon" />
+        </nav>
+    </header>
+    <main class="">
+        <div id="content" class="relative">
+            <div class="w-[100%] bg-[#0000004D] h-[279px] flex justify-center items-center">
+
+                <h3 class="text-[1.5rem] text-[white] text-center ">Create Post</h3>
+            </div>
+            <div class="w-[100%] flex  ">
+                <!--  h-[100px] w-[100px] rounded-[50%] -->
+                <div class="passport-section flex w-[100%] items-center mt-[20px] m-auto w-[80%] gap-[20px]">
+
+                    <div class="passport  col-span-1">
+
+                        <img src="/passport.png" alt="passport photograph"
+                            class="shadow-lg h-[100px] w-[100px] sm:h-[137px] sm:w-[137px] rounded-[50%] sm:border-[7px] border-[5px] border-white" />
+
+                    </div>
+
+
+                    <div class="name-section  col-span-1 sm:col-span-3 gap-[5px] w-[50%]">
+                        <h3 class="sm:text-[36px] sm:leading-[46px] leainding-[20px]">Hi Faith</h3>
+                        <p class="text-[12px] sm:text-[16px]">What is on your mind</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="form-section m-auto w-[80%]">
+
+                <form class="">
+                    <div
+                        class="button-section w-[100%] text-[right] flex  justify-center sm:mx-[40px] sm:px-[40px] mx-[0px] sm:justify-end sm:px-[15px] gap-[10px] sm:gap-[20px] ">
+                        <button
+                            class="border-[#700009] border-[1px]  justify-items-start text-[#700009] rounded-[20px] px-[25px] py-[3px] my-[15px]">
+                            Save
+                        </button>
+                        <button
+                            class="border-[#700009] border-[1px]  justify-items-start text-[#700009] rounded-[20px] px-[25px] py-[3px] my-[15px]">
+                            Preview
+                        </button>
+                        <button type="submit"
+                            class="bg-[#700009]  justify-items-start text-white rounded-[20px] px-[25px] py-[3px] my-[15px]">
+                            Publish
+                        </button>
+
+                    </div>
+                    <div class="form-section border-[1px] border-black my-[20px]">
+
+                        <div class="formating-section flex gap-[20px] items-center">
+                            <div class="paragraphSelect">
+                                <select name="paragraph" id="" class="bg-transparent">
+                                    <option value="">Paragraph
+                                    </option>
+                                    <option value="">Heading 2
+                                        <p>28 px</p>
+                                    </option>
+
+                                    <option value="">Heading 3
+                                        <p>20 px</p>
+                                    </option>
+                                    <option value="">Heading 4
+                                        <p>22 px</p>
+                                    </option>
+                                    <option value="">Heading 5
+                                        <p>20 px</p>
+                                    </option>
+                                    <option value="">Heading 6
+                                        <p>18 px</p>
+                                    </option>
+                                    <option value="">Heading 6
+                                        <p>16 px </p>
+                                    </option>
+                                    <option value="">Paragraph
+                                        <p>18 px</p>
+                                    </option>
+                                </select>
+                            </div>
+                            |
+                            <div>
+                                <select name="" id="" class=" bg-transparent">
+                                    <option value="">6</option>
+                                    <option value="">8</option>
+                                    <option value="">10</option>
+                                    <option value="">12</option>
+                                    <option value="">14</option>
+                                    <option value="">16</option>
+                                    <option value="">18</option>
+                                    <option value="">20</option>
+                                    <option value="">24</option>
+                                    <option value="">30</option>
+                                    <option value="">36</option>
+                                    <option value="">48</option>
+                                    <option value="">64</option>
+                                    <option value="">72</option>
+                                    <option value="">96</option>
+
+
+                                </select>
+                            </div>
+
+                            |
+                            <div>
+                                <p class="font-bold">B</p>
+                            </div>
+                            <div>
+                                <p class="underline font-bold">U</p>
+                            </div>
+
+                        </div>
+                        <hr class="border-black  my-[10px]">
+                        <div>
+                            <input type="text" placeholder="Post Title...."
+                                class="border-none border-gray placeholder-black px-[5px] placeholder-gray">
+                        </div>
+
+                        <hr class="border-black  my-[10px]">
+
+
+                        <div>
+                            <div class="flex gap-[20px] justify-between items-center mx-[20px]">
+                                <div class="flex items-center justify-center gap-[10px]">
+                                    <img src="/writeIcon.svg" alt="writing icon">
+                                    <label for=" message" class="block text-[12px] font-medium text-gray-700">Start
+                                        writing
+                                        your
+                                        post. Add images, videos and hashtags here </label>
+                                </div>
+                                <img src="/Group 40.svg" alt="douwnload icon" class="mx-20px">
+                            </div>
+
+                            <textarea id="message" name="message" rows="4"
+                                class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"></textarea>
+                        </div>
+                    </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <!-- <script src="main.js"></script> -->
+</body>
+
+</html>

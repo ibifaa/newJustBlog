@@ -1,4 +1,10 @@
 let gridContainer = document.getElementById("content");
+let hamburger = document.querySelector(".hamburger");
+let aside = document.querySelector(".aside");
+
+hamburger.addEventListener("click", () => {
+  aside.classList.toggle("hidden");
+});
 // CALLING POST
 // aPPI CALL FOR POST:
 

@@ -13,7 +13,11 @@
 <body class="font-['Work_Sans']">
   <header class="flex justify-between px-[20px] sm:px-[40px] py-[10px] shadow mb-[20px] items-center">
     <div class="title">
-      <h2 class="text-[1rem] sm:text-[2rem] text-[#DE8F5F] font-bold">Just <span class="text-[#F4DFB6]">Blog</span></h2>
+      <a href="index.html">
+        <h2 class="text-[1rem] sm:text-[2rem] text-[#DE8F5F] font-bold">Just <span class="text-[#F4DFB6]">Blog</span>
+        </h2>
+      </a>
+
 
     </div>
     <nav class="navItems flex gap-[30px] items-center">
@@ -21,21 +25,22 @@
           class="bg-[#3D5A98] hidden sm:block  text-[white] rounded-[10px] px-[20px] py-[5px] w-[120px]">Sign
           Up</button></a>
       <img src="notification.svg" alt="notification icons">
-      <img src="user-square.svg" alt="user Icon">
+      <a href="/pages/profile.html"><img src="user-square.svg" alt="user Icon"></a>
+
     </nav>
 
   </header>
-  <div class="sm:hidden mb-[10px] flex shadow-md py-[5px] rounded-[10px] items-center] w-[100%]">
-    <div class="flex "><input class="w-[80%] px-[20px]" type="text" placeholder="Search">
+  <div class="sm:hidden mb-[10px] flex shadow-md py-[5px] rounded-[10px] justify-between items-center  w-[100%]">
+    <div class="flex showdow-md "><input class=" px-[20px] " type="text" placeholder="Search">
       <img src="search.svg" class="h-[20px] w-[20px]" alt="search icon">
     </div>
     <div>
-      <img src="hamburger.svg" alt="" srcset="">
+      <img src="hamburger.svg" class="px-[20px] hamburger" alt="" srcset="">
     </div>
 
   </div>
   <main class="grid  grid-cols-1 sm:grid-cols-12 px-[20px] sm:px-[40px] gap-[40px] ">
-    <aside class="hidden sm:grid sm:col-span-3 max-h-[100vh]">
+    <aside class=" aside hidden sm:grid sm:col-span-3 max-h-[100vh]">
       <div class="mb-[10px] flex shadow-md py-[5px] rounded-[10px] items-center]">
         <input class="w-[80%] px-[20px]" type="text" placeholder="Search">
         <img src="search.svg" class="h-[20px] w-[20px]" alt="search icon">
@@ -57,7 +62,7 @@
       </div>
 
     </aside>
-    <div id="content" class="content grid grid-cols-2 sm:col-start-4 sm:col-end-13 m-auto gap-[40px]">
+    <div id="content" class="content grid grid-cols-2 sm:col-start-4 sm:col-end-13 m-auto gap-[10px] sm:gap-[40px]">
       <!-- <div>
             <div class="image-section">
                 <img src="imageOne.png" alt="image of a person">

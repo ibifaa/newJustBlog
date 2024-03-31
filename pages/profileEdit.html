@@ -25,19 +25,22 @@
         <div id="content" class="relative">
             <div class="w-[100%]">
                 <img src="/profileBg.png" class="shadow-md h-[100px] sm:h-[250px] w-[100%]" alt="background image" />
+
             </div>
             <div class="w-[100%] flex ">
                 <!--  h-[100px] w-[100px] rounded-[50%] -->
                 <div
                     class="passport-section grid grid-cols-3 sm:grid-cols-5 justify-between sm:justify-around w-[100%]">
-
+                    <p class="absolute text-[1.5rem] top-[220px] z-50 left-[120px]">+ Add <br> image</p>
                     <div class="passport absolute sm:top-[150px] sm:left-[50px] left-[20px] top-[50px] col-span-1">
+
                         <img src="/passport.png" alt="passport photograph"
                             class="shadow-lg h-[100px] w-[100px] sm:h-[200px] sm:w-[200px] rounded-[50%] sm:border-[10px] border-[5px] border-white" />
+
                     </div>
                     <div></div>
 
-                    <div class="name-section basis-[20%] sm:basis-[50%] col-span-1 sm:col-span-3 gap-[5px]">
+                    <div class="name-section  basis-[20%] sm:basis-[50%] col-span-1 sm:col-span-3 gap-[5px]">
                         <h3 class="sm:text-[36px] sm:leading-[46px] leainding-[20px]">Hi Faith</h3>
                         <p class="text-[12px] sm:text-[16px]">Welcome to your profile</p>
                     </div>
@@ -45,46 +48,50 @@
                     <div class="place-self-end col-span-1">
                         <button
                             class="border-[#700009] border-[1px] text-[#700009] rounded-[5px] px-[5px] sm:px-[15px] py-[10px] sm:my-[20px] my-[5px]  mr-[20px]">
-                            Edit Profile
+                            Save Changes
                         </button>
                     </div>
                 </div>
             </div>
 
             <div class="flex sm:items-center items-left flex-col sm:flex-row">
-                <div class="grid grid-cols-1 sm:grid-cols-2 w-[60%] gap-[10px] my-[20px] mx-[40px]">
+                <form class="grid grid-cols-1 sm:grid-cols-2 w-[60%] gap-[10px] my-[20px] mx-[40px]">
                     <div>
-                        <p class="text-[24px] leading-[28px] font-[500]">Name</p>
-                        <p>Faith Okoli</p>
-                        <hr class="sm:w-[60%] w-[100%] border-black mt-[10px]" />
+                        <label for="name">Name:</label> <br>
+                        <input type="text" placeholder="Faith Okoli"
+                            class="border-[1px] border-gray placeholder-black px-[5px]">
                     </div>
 
                     <div>
-                        <p class="text-[24px] leading-[28px] font-[500]">Email</p>
-                        <p class="text-[16px] leading-[18px] font-[400]">faithokoli@gmail.com</p>
-                        <hr class="sm:w-[60%] w-[100%] border-black mt-[10px]" />
+                        <label for="name">Phone number:</label> <br>
+                        <input type="text" placeholder="09099999999"
+                            class="border-[1px] border-gray placeholder-black px-[5px]">
                     </div>
 
                     <div>
-                        <p class="text-[24px] leading-[28px] font-[500]">Phone Number</p>
-                        <p class="text-[16px] leading-[18px] font-[400]">08087564341</p>
-                        <hr class="sm:w-[60%] w-[100%] border-black mt-[10px]" />
+                        <label for="name">Email:</label> <br>
+                        <input type="text" placeholder="Email"
+                            class="border-[1px] border-gray placeholder-black px-[5px]">
                     </div>
 
+
                     <div>
-                        <p class="text-[24px] leading-[28px] font-[500]">Password</p>
-                        <p class="text-[16px] leading-[18px] font-[400]">saynomore1</p>
-                        <hr class="sm:w-[60%] w-[100%] border-black mt-[10px]" />
+                        <label for="name">Password:</label> <br>
+                        <div class="flex gap-[5px]"> <input type="text" placeholder="Password"
+                                class="border-[1px] border-gray placeholder-black px-[5px]">
+                            <p class="text-[#700009] text-[12px] place-self-end ">Change Passord</p>
+                        </div>
+
                     </div>
-                </div>
+
 
             </div>
-            <div class="w-[100%] text-[right] flex  justify-start mx-[40px] sm:mx-[0px] sm:justify-end sm:px-[15px] ">
+            <!-- <div class="w-[100%] text-[right] flex  justify-start mx-[40px] sm:mx-[0px] sm:justify-end sm:px-[15px] ">
                 <button
                     class="bg-[#700009]  justify-items-start text-white rounded-[5px] px-[25px] py-[10px] my-[15px]">
                     Log out
-                </button>
-            </div>
+                </button> -->
+        </div>
         </div>
     </main>
 

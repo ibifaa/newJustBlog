@@ -4,7 +4,7 @@ export default {
     "./*.{html,js}",
     "./pages/*.{html,js}",
     "./pages/**/*.html",
-    "./pages/**/*.{html,js,ts,jsx,tsx}',",
+    "./pages/**/*.{html,js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {},

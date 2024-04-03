@@ -1,10 +1,8 @@
-import { defineConfig } from 'vite';
-import autoprefixer from 'autoprefixer';
-import tailwindcss from 'tailwindcss';
+import { defineConfig } from "vite";
+import autoprefixer from "autoprefixer";
+import tailwindcss from "tailwindcss";
 
 export default defineConfig({
-  plugins: [
-    tailwindcss,
-    autoprefixer,
-  ],
+  base: "https://vercel.com/ibifaas-projects/",
+  plugins: [tailwindcss, autoprefixer],
 });

@@ -4,4 +4,7 @@ import tailwindcss from "tailwindcss";
 
 export default defineConfig({
   plugins: [tailwindcss, autoprefixer],
+  build: {
+    cssOutput: "./dist/style.css", // Specify output path for CSS
+  },
 });
